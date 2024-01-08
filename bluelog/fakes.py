@@ -13,6 +13,7 @@ from sqlalchemy.exc import IntegrityError
 from bluelog.extensions import db
 from bluelog.models import Admin, Category, Post, Comment, Link
 
+# fake = Faker('zh_CN')
 fake = Faker()
 
 
